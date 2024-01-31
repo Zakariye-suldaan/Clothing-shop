@@ -1,0 +1,129 @@
+.listproduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 740px;
+    padding: 10px 50px;
+    margin: 30px;
+    border-radius: 6px;
+    background: white;
+}
+.listproduct-format-main{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 15px;
+    font-weight: 600;
+}
+.listproduct-product{
+    align-items: center;
+    font-weight: 500;
+}
+.listproduct-product-img{
+    height: 80px;
+}
+.listproduct-product-delete{
+    cursor: pointer;
+    width: 35px;
+    margin: auto;
+}
+.listproduct-allproducts{
+    overflow-y: auto;
+}
+.update-modal {
+    margin-top: 22%;
+    margin-left: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .update-modal h2 {
+    margin-bottom: 15px;
+  }
+  
+  .update-modal form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .update-modal label {
+    margin-bottom: 5px;
+  }
+  
+  .update-modal input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Make the input fields horizontal */
+  .update-modal form input {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  /* Make the buttons appear in the same line */
+  .update-modal form button {
+    width: 48%;
+  }
+  
+  .update-modal button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .update-modal button:hover {
+    background-color: #45a049;
+  }
+  
+  .update-modal button[type="submit"] {
+    background-color: #007bff;
+  }
+  
+  .update-modal button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .update-modal button:last-child {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  .update-modal button:last-child:hover {
+    background-color: #aaa;
+  }
+  
+  
+  
+@media (max-width: 800px) {
+    .listproduct{
+        padding: 10px 30px;
+        margin: 20px auto;
+        width: 95%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    .listproduct-format-main{
+        font-size: 12px;
+        color: #454545;
+        padding: 15px 0px;
+    }
+    .listproduct-product-img{
+        height: 60px;
+    }
+}

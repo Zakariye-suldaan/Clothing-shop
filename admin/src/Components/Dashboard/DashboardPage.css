@@ -1,0 +1,81 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+h1{
+  margin-left: 900%;
+}
+
+.total-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #2ed33c;
+  padding: 10px;
+  margin-top: 30px;
+  position: relative;
+  width: 400px;
+  height: 200px;
+  font-size: 2rem;
+  margin-left: 160%;
+}
+
+.total-products p {
+  margin: 0; /* Remove default margin for paragraphs */
+}
+
+.total-products p:first-child {
+  margin-bottom: 0; /* Remove margin at the bottom of the first paragraph */
+  margin-right: 10px; /* Add a margin to separate paragraphs */
+}
+
+.total-products img {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 70px;
+  height: 80px;
+}
+
+.total-users {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #2ed33c;
+  padding: 10px;
+  margin-top: 20px;
+  position: relative;
+  width: 400px;
+  height: 200px;
+  font-size: 2rem;
+  margin-left: 1500%;
+  margin-top: -275%;
+}
+
+.total-users p {
+  margin: 0; /* Remove default margin for paragraphs */
+}
+
+.total-users p:first-child {
+  margin-bottom: 0; 
+  margin-right: 10px; 
+}
+
+.total-users img {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 70px;
+  height: 80px;
+}
+
+

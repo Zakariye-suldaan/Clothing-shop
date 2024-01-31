@@ -1,0 +1,91 @@
+.loginsignup{
+    width: 100%;
+    height: 80vh;
+    background: #fce3fe;
+    padding-top: 100px;
+}
+.loginsignup-container{
+    width: 580px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+    margin-top: -3%;
+}
+.loginsignup-container h1{
+    margin: 20px 0px;
+}
+.loginsignup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+.loginsignup-fields input{
+    width: 100%;
+    height: 72px;
+    padding-left: 20px;
+    font-size: 18px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+}
+.loginsignup-container button{
+    width: 580px;
+    height: 72px;
+    color: white;
+    background: #ff4141;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+.ls-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.ls-login span{
+    color: #ff4141;
+    font-weight: 600;
+}
+
+/* Add this to your LoginSignup.css file */
+
+.ls-forgot-password {
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #4285f4;
+    margin-top: -5%;
+    margin-left: 69%;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  
+  .ls-forgot-password:hover {
+    text-decoration: none;
+  }
+  
+
+.loginsignup-fields {
+    position: relative;
+  }
+  
+  .password-container {
+    position: relative;
+  }
+  
+  .password-container img {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
