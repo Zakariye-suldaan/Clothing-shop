@@ -7,17 +7,23 @@ import { ShopContext } from '../Context/ShopContext'
 const ProductDisplay = (props) => {
     const {product} = props;
     const {addToCart} = useContext(ShopContext)
+    if (!product) {
+        return null; // or display a loading state or handle the case where product is undefined
+    }
+
+    // Check if the image property is defined in the product object
+    const productImage = product.image|| 'default-image.jpg';
   return (
     <div className='productdisplay'>
         <div className="productdisplay-left">
             <div className="productdisplayimg-list">
-                <img src={product.image} alt="" />
-                <img src={product.image} alt="" />
-                <img src={product.image} alt="" />
-                <img src={product.image} alt="" />
+                <img src={productImage} alt="" />
+                <img src={productImage} alt="" />
+                <img src={productImage} alt="" />
+                <img src={productImage} alt="" />
             </div>
             <div className="productdisplay-img">
-                <img className='productdisplay-img-main' src={product.image} alt="" />
+                <img className='productdisplay-img-main' src={productImage} alt="" />
             </div>
 
         </div>
